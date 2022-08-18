@@ -19,6 +19,7 @@ brew 'gh' # GitHub CLI https://cli.github.com/
 brwe 'mackup' # Mac backups
 brew 'mas' # Mac App Store Manager - a CLI way to install Mac Apps
 brew 'pkg-config'
+brew 'rectangle' # Window resize and positioning tool
 brew 'stripe/stripe-cli/stripe'
 brew 'stripe/stripe-mock/stripe-mock'
 brew 'svn' # Needed to install fonts
