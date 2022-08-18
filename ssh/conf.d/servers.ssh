@@ -1,0 +1,4 @@
+Host alias
+    HostName hostname.something
+    User default-user
+    ForwardAgent yes
