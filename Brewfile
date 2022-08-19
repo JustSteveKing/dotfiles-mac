@@ -55,6 +55,7 @@ cask 'google-chrome'
 cask 'google-drive-file-stream' # Google Drive File Stream, for mackup and GDrive usage
 cask 'gpg-suite' # For creating and managing GPG Keys
 cask 'phpmon'
+cask 'maccy' # Lightweight clipboard manager
 cask 'raycast'
 cask 'screenflow'
 cask 'slack'
