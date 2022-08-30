@@ -16,7 +16,7 @@ brew 'git'
 brew 'grep'
 brew 'httpie' # Super useful for testing HTTP Requests
 brew 'gh' # GitHub CLI https://cli.github.com/
-brwe 'mackup' # Mac backups
+brew 'mackup' # Mac backups
 brew 'mas' # Mac App Store Manager - a CLI way to install Mac Apps
 brew 'pkg-config'
 brew 'rectangle' # Window resize and positioning tool

@@ -121,9 +121,4 @@ ls -s ${HOME}/.dotfiles/ssh/conf.d ${HOME}/.ssh/conf.d
 
 chmod +x ${HOME}/.dotfiles/z.sh
 
-# Set macOS preferences - we will run this last because this will reload the shell
-echo -e "Setting macOS preferences ...\n"
-echo -e "-----------------\n"
-source $DOTFILES/.macos
-
 echo -e "All done\n"
