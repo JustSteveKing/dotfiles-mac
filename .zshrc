@@ -27,7 +27,7 @@ ZSH_CUSTOM=$DOTFILES
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git artisan composer macos)
+plugins=(git composer macos)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -41,4 +41,4 @@ done
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
-export PATH=$HOME/bin:/usr/local/bin:/opt/homebrew/bin/brew:/$HOME/.composer/vendor/bin:$PATH
+export PATH="$HOME/.spin/bin:$HOME/bin:/usr/local/bin:/opt/homebrew/bin/brew:/$HOME/.composer/vendor/bin:$PATH"

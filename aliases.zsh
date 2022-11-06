@@ -18,7 +18,8 @@ alias fresh="php artisan migrate:fresh --seed"
 alias tinker="php artisan tinker"
 alias seed="php artisan db:seed"
 alias serve="php artisan serve"
-alias sail='./vendor/bin/sail'
+alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
+alias sa='sail artisan'
 alias test='a test'
 alias sail-test 'sail artisan test'
 
