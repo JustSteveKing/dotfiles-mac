@@ -42,3 +42,7 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 export PATH="$HOME/.spin/bin:$HOME/bin:/usr/local/bin:/opt/homebrew/bin/brew:/$HOME/.composer/vendor/bin:$PATH"
+
+# Fiberplane CLI (fp)
+export PATH="/Users/steve/.fiberplane:$PATH"
+source /Users/steve/.fiberplane/zsh_completions
