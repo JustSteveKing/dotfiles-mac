@@ -78,7 +78,5 @@ alias afk="osascript -e 'tell application \"System Events\" to keystroke \"q\" u
 # Also, clear Apple’s System Logs to improve shell startup speed
 alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl"
 
-## Kubectl
-alias kontext="kubectl config current-context"
-alias kp="kubectl -n quoting-app-prod"
-alias kk="kubectl -n knowledge-base-prod"
+alias vim = "nvim"
+
