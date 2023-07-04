@@ -27,3 +27,4 @@ git clone --recursive git@github.com:juststeveking/dotfiles-mac.git ~/.dotfiles
 6. Restart your computer to finalize the process
 
 **Your Mac is now ready to use!**
+
